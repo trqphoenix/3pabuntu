@@ -34,5 +34,4 @@ echo "Install Chromium Deb Version"
 sudo apt install chromium -y
 
 echo "Done!"
-cd $HOME
 
