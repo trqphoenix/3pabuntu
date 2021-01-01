@@ -2,7 +2,7 @@ echo "Preparing Ubuntu to Install Chromium Without using Snapd"
 sudo apt remove chromium-browser chromium-browser-l10n chromium-codecs-ffmpeg-extra -y
 
 echo "Creating Source Repo File for Chromium"
-cd /etc/apt/sources.list.d/ && echo "deb http://ftp.debian.org/debian buster main
+cd $HOME && cd /etc/apt/sources.list.d/ && echo "deb http://ftp.debian.org/debian buster main
 deb http://ftp.debian.org/debian buster-updates main
 deb http://ftp.debian.org/debian-security buster/updates main" | sudo tee debian.list
 
