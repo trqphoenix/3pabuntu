@@ -35,3 +35,4 @@ sudo apt install chromium -y
 
 echo "Done!"
 cd $HOME
+
