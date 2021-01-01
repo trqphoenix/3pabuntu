@@ -12,3 +12,6 @@ sudo apt update -y
 
 echo "Install Brave Browser Nightly"
 sudo apt install brave-browser-nightly -y
+
+echo "Done!"
+cd $HOME
